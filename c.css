@@ -1,0 +1,203 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/************  Mobile First Design */
+html, body {
+  height: 100%;
+}
+body {
+
+  margin: 0 auto;
+  max-width: 1024px;
+  background-color: blue;
+
+}
+ul {
+
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.contact-container a {
+  color: black;
+}
+nav {
+  font-family: "Roboto", Arial, Verdana;
+  font-weight: 400;
+  letter-spacing: .05em;
+  color: white;
+  padding: 25px;
+
+
+}
+
+h1, .top-nav {
+  text-align: center;
+}
+
+.top-nav, .top-nav li {
+  width: 100%;
+}
+
+h1 a, .top-nav a {
+  color: white;
+}
+
+.top-nav {
+
+  margin-top: 30px;
+}
+
+.top-nav li {
+
+  padding: 10px 0;
+  margin: 5px auto;
+
+}
+
+.top-nav a {
+  text-transform: uppercase;
+}
+
+
+.firstSection  {
+
+  color: white;
+  max-width: 100%; 
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.firstSection p {
+
+  padding-top: 10%;
+  font-family: 'Roboto', sans-serif;
+
+}
+.container {
+  max-width: 1100px;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.col {
+  margin: 10px;
+  min-height: 250px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+
+img {
+
+  max-width: 100%;
+}
+
+.col img {
+
+  margin-bottom: 10%;
+}
+
+.col p {
+
+  padding-top: 5%;
+}
+.contact-container  {
+margin-top: 10%;
+}
+
+.contact-container h2 {
+margin-bottom: 2.5%;
+}
+.contact-container p {
+display: flex;
+flex-direction: column;
+}
+footer {
+  display: flex;
+  
+  justify-content: space-between;
+  font-weight: 800;
+  align-items: center;
+  margin-top: auto;
+  padding: 0 20px;
+  height: 100px;
+  border-top: solid rgb(89, 88, 88) 1px;
+  
+}
+
+.full {
+  display: none;
+}
+
+/************  This is for Tablets */
+@media (min-width:  768px) {
+
+  .container {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col {
+    flex-basis: calc(50% - 20px);
+  }
+
+  .firstSection {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 50px 20px 0 20px;
+    padding-right: 5%;
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+
+ 
+.top {
+    display: none;
+  }
+  .full {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+
+.contact-container p {
+font-size: 1.21em;
+  align-items: center;
+}
+
+  }
+
+ 
+
+/************  This is for Desktops */
+
+
+@media (min-width:  1024px) {
+
+
+.firstSection p {
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5%;
+}
+
+  .col {
+
+    flex-basis: calc(33.333% - 20px);
+  }
+
+}
+
