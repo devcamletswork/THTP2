@@ -174,7 +174,9 @@ footer {
     font-family: 'Roboto', sans-serif;
 
 }
-
+.container h2 {
+  align-items: center;
+}
  
 .top {
     display: none;
