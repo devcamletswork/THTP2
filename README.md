@@ -1,7 +1,7 @@
 # THTP2
  Team Treehouse Front-End Techdegree
  
- Mobile-first Responsive Layout
+ Mobile-First Responsive Layout
  
  PROJECT GRADE: EXCEEDS EXPECTATIONS
  
